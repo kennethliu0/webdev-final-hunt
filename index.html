@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Admin Login</title>
+    <link
+      rel="stylesheet"
+      href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <script
+      src="./script.js"
+      defer></script>
+  </head>
+  <body>
+    <div class="login-container">
+      <img
+        src="./image.png"
+        style="display: none"
+        alt="non-suspicious image"
+        height="300" />
+      <div class="login-card">
+        <h2>Admin Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="admin@example.com"
+              required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="••••••••"
+              required />
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <p id="secret-message"></p>
+      </div>
+      <div class="login-card button-container">
+        <a
+          href="https://docs.google.com/document/d/1ywSGBs2HKA353Fq61K5JeDk19Po7RIx8a_mdI33W9Dg/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="icon-button">
+          <button>
+            <img
+              src="document.svg"
+              alt="document icon"
+              height="32" />
+          </button>
+        </a>
+        <a
+          href="https://github.com/kennethliu0/webdev-final-hunt"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="icon-button">
+          <button>
+            <img
+              src="github.png"
+              alt="Github icon"
+              height="32" />
+          </button>
+        </a>
+        <a
+          href="https://forms.gle/YMoyvCiaWVGJzCEd6"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="icon-button">
+          <button>
+            <img
+              src="clipboard.svg"
+              alt="clipboard icon"
+              height="32" />
+          </button>
+        </a>
+      </div>
+      <div style="margin-top: 12px; text-align: center">
+        <p style="display: none">7th code is 432312</p>
+        <p id="skibidi">There's no secret code here, for now.</p>
+      </div>
+    </div>
+  </body>
+</html>
